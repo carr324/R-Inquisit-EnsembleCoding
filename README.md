@@ -26,4 +26,4 @@ _"You are going to be doing a timed perception task on pictures of different fac
   
   3. Subjects filled out additional scale measures after completing the 120 grid trials. These included the [Attitudes Towards Blacks (ATB) scale](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1559-1816.1993.tb01074.x), [Internal and External Motivation to respond without prejudice (IMS/EMS)](https://westmont.edu/_academics/departments/psychology/documents/PlantandDevine.pdf), [SDO7 scale](https://www.ncbi.nlm.nih.gov/pubmed/26479362), and race feeling thermometers (i.e., on scales of 0-100, "How cold or warm do you feel towards White-Americans?" and "How cold or warm do you feel towards African-Americans?).
 
-- __Study 6 (ensemble6; n = XXXX subjects):__ Just a replication of Study 5, without the ATB and IMS/EMS scales (SDO7 and feeling thermometers were still included in Study 6).
+- __Study 6 (ensemble6; n = 123 subjects):__ Just a replication of Study 5, without the ATB and IMS/EMS scales (SDO7 and feeling thermometers were still included in Study 6).
