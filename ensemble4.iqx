@@ -1,0 +1,1917 @@
+﻿<defaults>
+/ fontstyle = ("Gill Sans MT", 3.12%, false, false, false, false, 5, 1)
+/ screencolor = white
+/ txbgcolor = white
+/ txcolor = black
+/ minimumversion = "5.0.0.0"
+/ inputdevice = keyboard
+/ quitcommand = (1)
+</defaults>
+
+<text esc_text_header>
+/ items = ("If you need to exit the study early, you can do so anytime by hitting the ESC key on the keyboard.")
+/ fontstyle = ("Gill Sans MT", 2.25%, true, false, false, false, 5, 1)
+/ txcolor = red
+/ position = (50%, 5%)
+/ halign = center
+</text>
+
+<text esc_text_footer>
+/ items = ("If you need to exit the study early, you can do so anytime by hitting the ESC key on the keyboard.")
+/ hjustify = center
+/ position = (50%, 80%)
+/ valign = top
+/ txcolor = red
+/ fontstyle = ("Gill Sans MT", 3.12%, true, false, false, false, 5, 1)
+</text>
+
+<picture header_logo>
+/ items = ("cbs_logo.jpg")
+/ position = (90%, 10%)
+</picture>
+
+// Create item lists:
+
+<item cfd_stims_bf>
+/1="CFD-BF-001-N.jpg"
+/2="CFD-BF-002-N.jpg"
+/3="CFD-BF-003-N.jpg"
+/4="CFD-BF-004-N.jpg"
+/5="CFD-BF-005-N.jpg"
+/6="CFD-BF-006-N.jpg"
+/7="CFD-BF-007-N.jpg"
+/8="CFD-BF-008-N.jpg"
+/9="CFD-BF-009-N.jpg"
+/10="CFD-BF-010-N.jpg"
+/11="CFD-BF-011-N.jpg"
+/12="CFD-BF-012-N.jpg"
+/13="CFD-BF-013-N.jpg"
+/14="CFD-BF-014-N.jpg"
+/15="CFD-BF-015-N.jpg"
+/16="CFD-BF-016-N.jpg"
+/17="CFD-BF-017-N.jpg"
+/18="CFD-BF-018-N.jpg"
+/19="CFD-BF-019-N.jpg"
+/20="CFD-BF-020-N.jpg"
+/21="CFD-BF-021-N.jpg"
+/22="CFD-BF-023-N.jpg"
+/23="CFD-BF-024-N.jpg"
+/24="CFD-BF-025-N.jpg"
+/25="CFD-BF-027-N.jpg"
+/26="CFD-BF-028-N.jpg"
+/27="CFD-BF-029-N.jpg"
+/28="CFD-BF-030-N.jpg"
+/29="CFD-BF-031-N.jpg"
+/30="CFD-BF-032-N.jpg"
+/31="CFD-BF-033-N.jpg"
+/32="CFD-BF-034-N.jpg"
+/33="CFD-BF-035-N.jpg"
+/34="CFD-BF-036-N.jpg"
+/35="CFD-BF-037-N.jpg"
+/36="CFD-BF-038-N.jpg"
+/37="CFD-BF-039-N.jpg"
+/38="CFD-BF-040-N.jpg"
+/39="CFD-BF-041-N.jpg"
+/40="CFD-BF-042-N.jpg"
+/41="CFD-BF-043-N.jpg"
+/42="CFD-BF-044-N.jpg"
+/43="CFD-BF-045-N.jpg"
+/44="CFD-BF-047-N.jpg"
+/45="CFD-BF-048-N.jpg"
+/46="CFD-BF-049-N.jpg"
+/47="CFD-BF-050-N.jpg"
+/48="CFD-BF-051-N.jpg"
+/49="CFD-BF-200-N.jpg"
+/50="CFD-BF-201-N.jpg"
+/51="CFD-BF-202-N.jpg"
+/52="CFD-BF-203-N.jpg"
+/53="CFD-BF-204-N.jpg"
+/54="CFD-BF-205-N.jpg"
+/55="CFD-BF-206-N.jpg"
+/56="CFD-BF-207-N.jpg"
+/57="CFD-BF-208-N.jpg"
+/58="CFD-BF-209-N.jpg"
+/59="CFD-BF-210-N.jpg"
+/60="CFD-BF-211-N.jpg"
+/61="CFD-BF-212-N.jpg"
+/62="CFD-BF-213-N.jpg"
+/63="CFD-BF-214-N.jpg"
+/64="CFD-BF-215-N.jpg"
+/65="CFD-BF-216-N.jpg"
+/66="CFD-BF-217-N.jpg"
+/67="CFD-BF-218-N.jpg"
+/68="CFD-BF-219-N.jpg"
+/69="CFD-BF-220-N.jpg"
+/70="CFD-BF-221-N.jpg"
+/71="CFD-BF-222-N.jpg"
+/72="CFD-BF-223-N.jpg"
+/73="CFD-BF-224-N.jpg"
+/74="CFD-BF-225-N.jpg"
+/75="CFD-BF-226-N.jpg"
+/76="CFD-BF-227-N.jpg"
+/77="CFD-BF-228-N.jpg"
+/78="CFD-BF-229-N.jpg"
+/79="CFD-BF-230-N.jpg"
+/80="CFD-BF-231-N.jpg"
+/81="CFD-BF-232-N.jpg"
+/82="CFD-BF-233-N.jpg"
+/83="CFD-BF-234-N.jpg"
+/84="CFD-BF-235-N.jpg"
+/85="CFD-BF-236-N.jpg"
+/86="CFD-BF-237-N.jpg"
+/87="CFD-BF-238-N.jpg"
+/88="CFD-BF-239-N.jpg"
+/89="CFD-BF-240-N.jpg"
+/90="CFD-BF-241-N.jpg"
+/91="CFD-BF-242-N.jpg"
+/92="CFD-BF-243-N.jpg"
+/93="CFD-BF-244-N.jpg"
+/94="CFD-BF-245-N.jpg"
+/95="CFD-BF-246-N.jpg"
+/96="CFD-BF-247-N.jpg"
+/97="CFD-BF-248-N.jpg"
+/98="CFD-BF-249-N.jpg"
+/99="CFD-BF-250-N.jpg"
+/100="CFD-BF-251-N.jpg"
+/101="CFD-BF-252-N.jpg"
+/102="CFD-BF-253-N.jpg"
+/103="CFD-BF-254-N.jpg"
+/104="CFD-BF-255-N.jpg"
+</item>
+
+<item cfd_stims_bm>
+/1="CFD-BM-001-N.jpg"
+/2="CFD-BM-002-N.jpg"
+/3="CFD-BM-003-N.jpg"
+/4="CFD-BM-004-N.jpg"
+/5="CFD-BM-005-N.jpg"
+/6="CFD-BM-009-N.jpg"
+/7="CFD-BM-010-N.jpg"
+/8="CFD-BM-011-N.jpg"
+/9="CFD-BM-012-N.jpg"
+/10="CFD-BM-013-N.jpg"
+/11="CFD-BM-015-N.jpg"
+/12="CFD-BM-016-N.jpg"
+/13="CFD-BM-017-N.jpg"
+/14="CFD-BM-018-N.jpg"
+/15="CFD-BM-019-N.jpg"
+/16="CFD-BM-020-N.jpg"
+/17="CFD-BM-021-N.jpg"
+/18="CFD-BM-022-N.jpg"
+/19="CFD-BM-023-N.jpg"
+/20="CFD-BM-024-N.jpg"
+/21="CFD-BM-025-N.jpg"
+/22="CFD-BM-026-N.jpg"
+/23="CFD-BM-027-N.jpg"
+/24="CFD-BM-028-N.jpg"
+/25="CFD-BM-029-N.jpg"
+/26="CFD-BM-030-N.jpg"
+/27="CFD-BM-031-N.jpg"
+/28="CFD-BM-032-N.jpg"
+/29="CFD-BM-033-N.jpg"
+/30="CFD-BM-034-N.jpg"
+/31="CFD-BM-036-N.jpg"
+/32="CFD-BM-037-N.jpg"
+/33="CFD-BM-038-N.jpg"
+/34="CFD-BM-039-N.jpg"
+/35="CFD-BM-040-N.jpg"
+/36="CFD-BM-041-N.jpg"
+/37="CFD-BM-043-N.jpg"
+/38="CFD-BM-044-N.jpg"
+/39="CFD-BM-045-N.jpg"
+/40="CFD-BM-046-N.jpg"
+/41="CFD-BM-200-N.jpg"
+/42="CFD-BM-201-N.jpg"
+/43="CFD-BM-202-N.jpg"
+/44="CFD-BM-203-N.jpg"
+/45="CFD-BM-204-N.jpg"
+/46="CFD-BM-205-N.jpg"
+/47="CFD-BM-206-N.jpg"
+/48="CFD-BM-207-N.jpg"
+/49="CFD-BM-208-N.jpg"
+/50="CFD-BM-209-N.jpg"
+/51="CFD-BM-210-N.jpg"
+/52="CFD-BM-211-N.jpg"
+/53="CFD-BM-212-N.jpg"
+/54="CFD-BM-213-N.jpg"
+/55="CFD-BM-214-N.jpg"
+/56="CFD-BM-215-N.jpg"
+/57="CFD-BM-216-N.jpg"
+/58="CFD-BM-217-N.jpg"
+/59="CFD-BM-218-N.jpg"
+/60="CFD-BM-219-N.jpg"
+/61="CFD-BM-221-N.jpg"
+/62="CFD-BM-222-N.jpg"
+/63="CFD-BM-223-N.jpg"
+/64="CFD-BM-224-N.jpg"
+/65="CFD-BM-225-N.jpg"
+/66="CFD-BM-226-N.jpg"
+/67="CFD-BM-227-N.jpg"
+/68="CFD-BM-228-N.jpg"
+/69="CFD-BM-229-N.jpg"
+/70="CFD-BM-230-N.jpg"
+/71="CFD-BM-231-N.jpg"
+/72="CFD-BM-232-N.jpg"
+/73="CFD-BM-233-N.jpg"
+/74="CFD-BM-234-N.jpg"
+/75="CFD-BM-235-N.jpg"
+/76="CFD-BM-236-N.jpg"
+/77="CFD-BM-237-N.jpg"
+/78="CFD-BM-238-N.jpg"
+/79="CFD-BM-239-N.jpg"
+/80="CFD-BM-240-N.jpg"
+/81="CFD-BM-241-N.jpg"
+/82="CFD-BM-242-N.jpg"
+/83="CFD-BM-243-N.jpg"
+/84="CFD-BM-244-N.jpg"
+/85="CFD-BM-245-N.jpg"
+/86="CFD-BM-246-N.jpg"
+/87="CFD-BM-247-N.jpg"
+/88="CFD-BM-248-N.jpg"
+/89="CFD-BM-249-N.jpg"
+/90="CFD-BM-250-N.jpg"
+/91="CFD-BM-251-N.jpg"
+/92="CFD-BM-252-N.jpg"
+/93="CFD-BM-253-N.jpg"
+</item>
+
+<item cfd_stims_wf>
+/1="CFD-WF-001-N.jpg"
+/2="CFD-WF-002-N.jpg"
+/3="CFD-WF-003-N.jpg"
+/4="CFD-WF-005-N.jpg"
+/5="CFD-WF-006-N.jpg"
+/6="CFD-WF-007-N.jpg"
+/7="CFD-WF-008-N.jpg"
+/8="CFD-WF-009-N.jpg"
+/9="CFD-WF-010-N.jpg"
+/10="CFD-WF-011-N.jpg"
+/11="CFD-WF-012-N.jpg"
+/12="CFD-WF-013-N.jpg"
+/13="CFD-WF-014-N.jpg"
+/14="CFD-WF-015-N.jpg"
+/15="CFD-WF-016-N.jpg"
+/16="CFD-WF-017-N.jpg"
+/17="CFD-WF-018-N.jpg"
+/18="CFD-WF-019-N.jpg"
+/19="CFD-WF-020-N.jpg"
+/20="CFD-WF-021-N.jpg"
+/21="CFD-WF-022-N.jpg"
+/22="CFD-WF-023-N.jpg"
+/23="CFD-WF-024-N.jpg"
+/24="CFD-WF-025-N.jpg"
+/25="CFD-WF-026-N.jpg"
+/26="CFD-WF-027-N.jpg"
+/27="CFD-WF-028-N.jpg"
+/28="CFD-WF-029-N.jpg"
+/29="CFD-WF-030-N.jpg"
+/30="CFD-WF-031-N.jpg"
+/31="CFD-WF-033-N.jpg"
+/32="CFD-WF-034-N.jpg"
+/33="CFD-WF-035-N.jpg"
+/34="CFD-WF-036-N.jpg"
+/35="CFD-WF-037-N.jpg"
+/36="CFD-WF-038-N.jpg"
+/37="CFD-WF-039-N.jpg"
+/38="CFD-WF-200-N.jpg"
+/39="CFD-WF-201-N.jpg"
+/40="CFD-WF-202-N.jpg"
+/41="CFD-WF-203-N.jpg"
+/42="CFD-WF-204-N.jpg"
+/43="CFD-WF-205-N.jpg"
+/44="CFD-WF-206-N.jpg"
+/45="CFD-WF-207-N.jpg"
+/46="CFD-WF-208-N.jpg"
+/47="CFD-WF-209-N.jpg"
+/48="CFD-WF-210-N.jpg"
+/49="CFD-WF-211-N.jpg"
+/50="CFD-WF-212-N.jpg"
+/51="CFD-WF-213-N.jpg"
+/52="CFD-WF-214-N.jpg"
+/53="CFD-WF-215-N.jpg"
+/54="CFD-WF-216-N.jpg"
+/55="CFD-WF-217-N.jpg"
+/56="CFD-WF-218-N.jpg"
+/57="CFD-WF-219-N.jpg"
+/58="CFD-WF-220-N.jpg"
+/59="CFD-WF-221-N.jpg"
+/60="CFD-WF-222-N.jpg"
+/61="CFD-WF-223-N.jpg"
+/62="CFD-WF-224-N.jpg"
+/63="CFD-WF-225-N.jpg"
+/64="CFD-WF-226-N.jpg"
+/65="CFD-WF-227-N.jpg"
+/66="CFD-WF-228-N.jpg"
+/67="CFD-WF-229-N.jpg"
+/68="CFD-WF-230-N.jpg"
+/69="CFD-WF-231-N.jpg"
+/70="CFD-WF-232-N.jpg"
+/71="CFD-WF-233-N.jpg"
+/72="CFD-WF-234-N.jpg"
+/73="CFD-WF-235-N.jpg"
+/74="CFD-WF-236-N.jpg"
+/75="CFD-WF-237-N.jpg"
+/76="CFD-WF-238-N.jpg"
+/77="CFD-WF-239-N.jpg"
+/78="CFD-WF-240-N.jpg"
+/79="CFD-WF-241-N.jpg"
+/80="CFD-WF-242-N.jpg"
+/81="CFD-WF-243-N.jpg"
+/82="CFD-WF-244-N.jpg"
+/83="CFD-WF-245-N.jpg"
+/84="CFD-WF-246-N.jpg"
+/85="CFD-WF-247-N.jpg"
+/86="CFD-WF-248-N.jpg"
+/87="CFD-WF-249-N.jpg"
+/88="CFD-WF-250-N.jpg"
+/89="CFD-WF-251-N.jpg"
+/90="CFD-WF-252-N.jpg"
+</item>
+
+<item cfd_stims_wm>
+/1="CFD-WM-001-N.jpg"
+/2="CFD-WM-002-N.jpg"
+/3="CFD-WM-003-N.jpg"
+/4="CFD-WM-004-N.jpg"
+/5="CFD-WM-006-N.jpg"
+/6="CFD-WM-009-N.jpg"
+/7="CFD-WM-010-N.jpg"
+/8="CFD-WM-011-N.jpg"
+/9="CFD-WM-012-N.jpg"
+/10="CFD-WM-013-N.jpg"
+/11="CFD-WM-014-N.jpg"
+/12="CFD-WM-015-N.jpg"
+/13="CFD-WM-016-N.jpg"
+/14="CFD-WM-017-N.jpg"
+/15="CFD-WM-018-N.jpg"
+/16="CFD-WM-019-N.jpg"
+/17="CFD-WM-020-N.jpg"
+/18="CFD-WM-021-N.jpg"
+/19="CFD-WM-022-N.jpg"
+/20="CFD-WM-023-N.jpg"
+/21="CFD-WM-024-N.jpg"
+/22="CFD-WM-025-N.jpg"
+/23="CFD-WM-026-N.jpg"
+/24="CFD-WM-028-N.jpg"
+/25="CFD-WM-029-N.jpg"
+/26="CFD-WM-031-N.jpg"
+/27="CFD-WM-032-N.jpg"
+/28="CFD-WM-033-N.jpg"
+/29="CFD-WM-034-N.jpg"
+/30="CFD-WM-035-N.jpg"
+/31="CFD-WM-036-N.jpg"
+/32="CFD-WM-037-N.jpg"
+/33="CFD-WM-038-N.jpg"
+/34="CFD-WM-039-N.jpg"
+/35="CFD-WM-040-N.jpg"
+/36="CFD-WM-041-N.jpg"
+/37="CFD-WM-200-N.jpg"
+/38="CFD-WM-201-N.jpg"
+/39="CFD-WM-202-N.jpg"
+/40="CFD-WM-203-N.jpg"
+/41="CFD-WM-204-N.jpg"
+/42="CFD-WM-205-N.jpg"
+/43="CFD-WM-206-N.jpg"
+/44="CFD-WM-207-N.jpg"
+/45="CFD-WM-208-N.jpg"
+/46="CFD-WM-209-N.jpg"
+/47="CFD-WM-210-N.jpg"
+/48="CFD-WM-211-N.jpg"
+/49="CFD-WM-212-N.jpg"
+/50="CFD-WM-213-N.jpg"
+/51="CFD-WM-214-N.jpg"
+/52="CFD-WM-215-N.jpg"
+/53="CFD-WM-216-N.jpg"
+/54="CFD-WM-217-N.jpg"
+/55="CFD-WM-218-N.jpg"
+/56="CFD-WM-219-N.jpg"
+/57="CFD-WM-220-N.jpg"
+/58="CFD-WM-221-N.jpg"
+/59="CFD-WM-222-N.jpg"
+/60="CFD-WM-223-N.jpg"
+/61="CFD-WM-224-N.jpg"
+/62="CFD-WM-225-N.jpg"
+/63="CFD-WM-227-N.jpg"
+/64="CFD-WM-228-N.jpg"
+/65="CFD-WM-229-N.jpg"
+/66="CFD-WM-230-N.jpg"
+/67="CFD-WM-231-N.jpg"
+/68="CFD-WM-232-N.jpg"
+/69="CFD-WM-233-N.jpg"
+/70="CFD-WM-234-N.jpg"
+/71="CFD-WM-235-N.jpg"
+/72="CFD-WM-236-N.jpg"
+/73="CFD-WM-237-N.jpg"
+/74="CFD-WM-238-N.jpg"
+/75="CFD-WM-239-N.jpg"
+/76="CFD-WM-240-N.jpg"
+/77="CFD-WM-241-N.jpg"
+/78="CFD-WM-242-N.jpg"
+/79="CFD-WM-243-N.jpg"
+/80="CFD-WM-244-N.jpg"
+/81="CFD-WM-245-N.jpg"
+/82="CFD-WM-247-N.jpg"
+/83="CFD-WM-248-N.jpg"
+/84="CFD-WM-249-N.jpg"
+/85="CFD-WM-250-N.jpg"
+/86="CFD-WM-251-N.jpg"
+/87="CFD-WM-252-N.jpg"
+/88="CFD-WM-253-N.jpg"
+/89="CFD-WM-254-N.jpg"
+/90="CFD-WM-255-N.jpg"
+/91="CFD-WM-256-N.jpg"
+/92="CFD-WM-257-N.jpg"
+/93="CFD-WM-258-N.jpg"
+</item>
+
+// Display intro and task instructions:
+
+<textbox mTurkID>
+/ caption = "Welcome to the study!
+
+During this session, you will be giving ratings for images of different faces. You will receive more detailed instructions once you start the task.
+
+First though, please enter your MTurk Worker ID to begin. You will receive a confirmation code at the end of the study that you can enter back on MTurk in order to receive payment for participation.
+"
+/ orientation = horizontal
+/ required = true
+/ position = (10%, 20%)
+/ subcaption = "Enter your MTurk Worker ID in the box to the right:"
+/ subcaptionfontstyle = ("Gill Sans MT", 2.78%, true, false, false, false, 5, 1)
+/ textboxsize = (25%, 5%)
+</textbox>
+
+<surveypage mTurkID>
+/ stimulustimes = [1 = sequence(esc_text_footer, header_logo)]
+/ questions = [1 = mTurkID]
+/ nextbuttonposition = (90%, 90%)
+/ showquestionnumbers = false
+/ showpagenumbers = false
+</surveypage>
+
+<survey mTurkID_survey>
+/ pages = [1 = mTurkID]
+</survey>
+
+<text intro_text>
+/ items = ("You are going to be giving ratings of TRUSTWORTHINESS on images of different faces.  On each trial, you will see a picture of a face appear in the center of the screen, along with a clickable scale (with points from 1 to 9).
+
+Using that scale, we want you to rate how trustworthy the face appears to you (1 = not trustworthy at all; 9 = very trustworthy).")
+/ hjustify = center
+/ size = (90%, 60%)
+/ position = (50%, 25%)
+/ valign = top
+/ select = sequence
+</text>
+
+<text spacebar>
+/ items = ("Press the SPACEBAR to begin.")
+/ position = (50%, 85%)
+/ valign = bottom
+/ txcolor = blue
+/ fontstyle = ("Gill Sans MT", 3.5%, true, false, false, false, 5, 1)
+</text>
+
+<trial main_instructions>
+/ stimulustimes = [1 = intro_text, spacebar, esc_text_header]
+/ correctresponse = (" ")
+</trial>
+
+<block main_instructions>
+/ trials = [1 = main_instructions]
+</block>
+
+// Set up image presentation types:
+
+<picture bf_pic>
+/ items = cfd_stims_bf	
+/ select = noreplace
+/ position = (50%, 67.5%)
+/ size = (40%, 60%)
+</picture>
+
+<picture bm_pic>
+/ items = cfd_stims_bm	
+/ select = noreplace
+/ position = (50%, 67.5%)
+/ size = (40%, 60%)
+</picture>
+
+<picture wf_pic>
+/ items = cfd_stims_wf	
+/ select = noreplace
+/ position = (50%, 67.5%)
+/ size = (40%, 60%)
+</picture>
+
+<picture wm_pic>
+/ items = cfd_stims_wm	
+/ select = noreplace
+/ position = (50%, 67.5%)
+/ size = (40%, 60%)
+</picture>
+
+<text survey_text_header>
+/ items = ("Use your mouse to click on the box for your answer (once you click, you will be automatically advanced to the next question).")
+/ fontstyle = ("Gill Sans MT", 2.36%, true, false, false, false, 5, 1)
+/ position = (50%, 10%)
+/ hjustify = center
+/ valign = top
+/ txcolor = blue
+</text>
+
+<text trust_question>
+/ items = ("How trustworthy do you find this person?")
+/ fontstyle = ("Gill Sans MT", 3%, true, false, false, false, 5, 1)
+/ position = (50%, 20%)
+/ hjustify = center
+/ valign = top
+/ txcolor = black
+</text>
+
+<likert trust_scale_bf>
+/ anchors=[1="Not at all"; 5="Neutral"; 9="Very much"]
+/ anchorwidth = 9%
+/ fontstyle = ("Gill Sans MT", 2.5%, false, false, false, false, 5, 1)
+/ stimulusframes = [1 = sequence(trust_question, esc_text_header, survey_text_header, bf_pic)]
+/ mouse = true
+/ numpoints = 9
+/ recorddata = true
+/ showmousecursor = true
+/ position = (50%, 30%)
+</likert>
+
+<likert trust_scale_bm>
+/ anchors=[1="Not at all"; 5="Neutral"; 9="Very much"]
+/ anchorwidth = 9%
+/ fontstyle = ("Gill Sans MT", 2.5%, false, false, false, false, 5, 1)
+/ stimulusframes = [1 = sequence(trust_question, esc_text_header, survey_text_header, bm_pic)]
+/ mouse = true
+/ numpoints = 9
+/ recorddata = true
+/ showmousecursor = true
+/ position = (50%, 30%)
+</likert>
+
+<likert trust_scale_wf>
+/ anchors=[1="Not at all"; 5="Neutral"; 9="Very much"]
+/ anchorwidth = 9%
+/ fontstyle = ("Gill Sans MT", 2.5%, false, false, false, false, 5, 1)
+/ stimulusframes = [1 = sequence(trust_question, esc_text_header, survey_text_header, wf_pic)]
+/ mouse = true
+/ numpoints = 9
+/ recorddata = true
+/ showmousecursor = true
+/ position = (50%, 30%)
+</likert>
+
+<likert trust_scale_wm>
+/ anchors=[1="Not at all"; 5="Neutral"; 9="Very much"]
+/ anchorwidth = 9%
+/ fontstyle = ("Gill Sans MT", 2.5%, false, false, false, false, 5, 1)
+/ stimulusframes = [1 = sequence(trust_question, esc_text_header, survey_text_header, wm_pic)]
+/ mouse = true
+/ numpoints = 9
+/ recorddata = true
+/ showmousecursor = true
+/ position = (50%, 30%)
+</likert>
+
+// # BF = 104
+// # BM = 93
+// # WF = 90
+// # WM = 93
+// Only presenting 1/2 the faces = 380 / 2 = 190 trials
+<block ratingBlock_mixAll>
+/ trials = [1-190 = noreplace(trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm)]
+</block>
+
+// # BF = 104
+// # BM = 93
+// # WF = 90
+// # WM = 93
+// Only presenting 1/2 the faces = 194 / 2 = 97
+<block ratingBlock_mixR_f>
+/ trials = [1-97 = noreplace(trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf)]
+</block>
+
+// # BF = 104
+// # BM = 93
+// # WF = 90
+// # WM = 93
+// Only presenting 1/2 the faces = 186 / 2 = 93
+<block ratingBlock_mixR_m>
+/ trials = [1-93 = noreplace(trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm)]
+</block>
+
+// # BF = 104
+// # BM = 93
+// # WF = 90
+// # WM = 93
+// Only presenting 1/2 the faces = 197 / 2 = ~98 (this + ratingBlock_mixG_w = 190) 
+<block ratingBlock_mixG_b>
+/ trials = [1-98 = noreplace(trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bf,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm,
+trust_scale_bm)]
+</block>
+
+// # BF = 104
+// # BM = 93
+// # WF = 90
+// # WM = 93
+// Only presenting 1/2 the faces = 183 / 2 = ~92 (this + ratingBlock_mixG_b = 190) 
+<block ratingBlock_mixG_w>
+/ trials = [1-92 = noreplace(trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wf,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm,
+trust_scale_wm)]
+</block>
+
+// Only presenting 1/2 the faces = 104 / 2 = 52 
+<block ratingBlock_onlyBF>
+/ trials = [1-52 = trust_scale_bf]
+</block>
+
+// Only presenting 1/2 the faces = 93 / 2 = ~46 
+<block ratingBlock_onlyBM>
+/ trials = [1-46 = trust_scale_bm]
+</block>
+
+// Only presenting 1/2 the faces = 90 / 2 = 45 
+<block ratingBlock_onlyWF>
+/ trials = [1-45 = trust_scale_wf]
+</block>
+
+// Only presenting 1/2 the faces = 93 / 2 = ~47 
+<block ratingBlock_onlyWM>
+/ trials = [1-47 = trust_scale_wm]
+</block>
+
+// Deomgraphics and comments ...
+
+<textbox age>
+/ caption = "Please enter your age (in years):"
+/ mask = positiveinteger
+/ range = (18, 100)
+/ orientation = horizontal
+/ required = true
+/ position = (10%, 25%)
+/ fontstyle = ("Gill Sans MT", 2.78%, true, false, false, false, 5, 1)
+/ responsefontstyle = ("Gill Sans MT", 2.78%, false, false, false, false, 5, 1)
+</textbox>
+
+<dropdown gender>
+/ caption = "What is your gender?"
+/ options = ("Male", "Female")
+/ required = true
+/ orientation = horizontal
+/ position = (10%, 40%)
+/ fontstyle = ("Gill Sans MT", 2.78%, true, false, false, false, 5, 1)
+/ responsefontstyle = ("Gill Sans MT", 2.78%, false, false, false, false, 5, 1)
+</dropdown>
+
+<dropdown race>
+/ caption = "What is your race/ethnicity?"
+/ options = ("White (Caucasian)", "African-American", "Hispanic", "Asian-American", "Other")
+/ required = true
+/ orientation = horizontal
+/ position = (10%, 55%)
+/ fontstyle = ("Gill Sans MT", 2.78%, true, false, false, false, 5, 1)
+/ responsefontstyle = ("Gill Sans MT", 2.78%, false, false, false, false, 5, 1)
+</dropdown>
+
+<textbox comments>
+/ caption = "Do you have any comments about today's survey?~nAny at all would be very helpful!"
+/ multiline = true
+/ orientation = horizontal
+/ required = false
+/ textboxsize = (35%, 20%)
+/ position = (10%, 70%)
+/ fontstyle = ("Gill Sans MT", 2.78%, true, false, false, false, 5, 1)
+/ responsefontstyle = ("Gill Sans MT", 2.78%, false, false, false, false, 5, 1)
+</textbox>
+
+<surveypage demographics_questions>
+/ stimulustimes = [1 = sequence(esc_text_header)]
+/ questions = [1-3 = sequence(age, gender, race, comments)]
+/ nextbuttonposition = (90%, 90%)
+/ backbuttonposition = (10%, 90%)
+/ showquestionnumbers = false
+/ showpagenumbers = false
+/ caption = "~nLast questions before you finish the study ...~n~n"
+</surveypage>
+
+<survey demographics_survey>
+/ pages = [1 = demographics_questions]
+</survey>
+
+<item expt_end>
+/ 1 = "All done with the study!  Thank you for your participation.
+
+!!! IMPORTANT !!!  You need to enter the confirmation code from this study back on the Amazon MTurk website in order to receive payment."
+</item>
+
+<trial expt_end>
+/ stimulustimes = [1 = sequence(expt_end, expt_end_footer, header_logo)]
+/ correctresponse = (" ")
+</trial>
+
+<text expt_end>
+/ items = expt_end
+/ hjustify = center
+/ size = (90%, 60%)
+/ position = (50%, 25%)
+/ valign = top
+</text>
+
+<text expt_end_footer>
+/ items = ("Hit the spacebar to get your confirmation code and exit the study.")
+/ hjustify = center
+/ size = (90%, 60%)
+/ position = (50%, 60%)
+/ valign = top
+/ txcolor = red
+/ fontstyle = ("Gill Sans MT", 3.5%, true, false, false, false, 5, 1)
+</text>
+
+<block expt_end>
+/ trials = [1 = expt_end]
+</block>
+
+// Condition assignments (done by groupnumber):
+// 1 = mix race + mix gender
+// 2 = block race + block gender
+// 3 = mix race + block gender
+// 4 = block race + mix gender
+
+// All participants should have a total of 190 trials (regardless of condition) ...
+
+<expt>
+/ subjects = (1 of 4)
+/ groupassignment = subjectnumber
+/ blocks = [1 = mTurkID_survey;
+			2 = main_instructions;
+			3 = ratingBlock_mixAll;
+			4 = demographics_survey;
+			5 = expt_end]
+</expt>
+
+<expt>
+/ subjects = (2 of 4)
+/ groupassignment = subjectnumber
+/ blocks = [1 = mTurkID_survey;
+			2 = main_instructions;
+			3-6 = noreplace(ratingBlock_onlyBF, ratingBlock_onlyBM, ratingBlock_onlyWF, ratingBlock_onlyWM);
+			7 = demographics_survey;
+			8 = expt_end]
+</expt>
+
+<expt>
+/ subjects = (3 of 4)
+/ groupassignment = subjectnumber
+/ blocks = [1 = mTurkID_survey;
+			2 = main_instructions;
+			3-4 = noreplace(ratingBlock_mixR_f, ratingBlock_mixR_m);
+			5 = demographics_survey;
+			6 = expt_end]
+</expt>
+
+<expt>
+/ subjects = (4 of 4)
+/ groupassignment = subjectnumber
+/ blocks = [1 = mTurkID_survey;
+			2 = main_instructions;
+			3-4 = noreplace(ratingBlock_mixG_b, ratingBlock_mixG_w);
+			5 = demographics_survey;
+			6 = expt_end]
+</expt>
+
+<monkey>
+/ latencydistribution = normal(200, 10)
+/ percentcorrect = 90
+</monkey>
