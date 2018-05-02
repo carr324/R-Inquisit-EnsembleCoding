@@ -14,11 +14,19 @@ _"You are going to be doing a timed perception task on pictures of different fac
 - __Study 4 (ensemble4; n = 411 subjects):__  This was a quick norming study to get z-scored trustworthiness ratings for other faces aside from White males in the [Chicago Face Database](http://faculty.chicagobooth.edu/bernd.wittenbrink/cfd/index.html).  We did this by having subjects give trust ratings for all Black/White male/female faces in the Chicago Face Database, using a clickable 9-point scale ("How trustworthy do you find this person?").  All subjects rated 190 faces each, after being randomly assigned to 1 of 4 conditions (the R script for this study uses ratings from condition 1 to create trust z-scores, which are then outputted to a new .csv file):
 
   1. ___Mixed race and gender___ - all faces randomized by race/gender in one block
-  2. ___Separate race and gender___ - all faces blocked by race & gender (i.e., 4 blocks of White male, White female, Black male, &         Black female; block order randomized)
-  3. ___Mixed race and separate gender___ - faces blocked by gender, with races mixed (i.e., 2 blocks of all Black/White female faces       and all Black/White male faces; block order randomized)
-  4. ___Mixed gender and separate race___ - faces blocked by race, with genders mixed (i.e., 2 blocks of all male/female Black faces and     all male/female White faces; block order randomized)
+  2. ___Separate race and gender___ - all faces blocked by race & gender (i.e., 4 blocks of White male, White female, Black male, & Black female; block order randomized)
+  3. ___Mixed race and separate gender___ - faces blocked by gender, with races mixed (i.e., 2 blocks of all Black/White female faces and all Black/White male faces; block order randomized)
+  4. ___Mixed gender and separate race___ - faces blocked by race, with genders mixed (i.e., 2 blocks of all male/female Black faces and all male/female White faces; block order randomized)
 
-- __Study 5 (ensemble5; n = XXXX subjects):__ start
+- __Study 5 (ensemble5; n = 124 subjects):__ Similar to Study 1, with 3 main changes:
+
+  1. We used the faces and trust z-scores from Study 4. As with Study 1, on each trial, a fixation would appear (500ms), then the 4 grid faces (2000ms), followed by the compare face (until response).  Subjects were asked "Is THIS face more (M) or less (L) trustworthy than the group?" (no time limit to respond).  The experiment program (.iqx) constrains each trial such that faces from the same identity are never shown in the same trial, and the average of trust ratings for the grid faces cannot equal the trust rating of the compare face (if so, the program flags the trial and runs another one).
+  
+  2. Subjects completed 120 grid trials, where the races of the faces varied:  40 of the trials contained all White faces, 40 of the trials contained all Black faces, and the other 40 trials were mixed-race (i.e., there was at least 1 White face and 1 Black face in the grid/compare set of 5 faces).
+  
+  3. Subjects filled out additional scale measures after completing the 120 grid trials.  These included the [Attitudes Towards Blacks (ATB) scale](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1559-1816.1993.tb01074.x), [Internal and External Motivation to respond without prejudice (IMS/EMS)](https://westmont.edu/_academics/departments/psychology/documents/PlantandDevine.pdf), [SDO7 scale](https://www.ncbi.nlm.nih.gov/pubmed/26479362), and race feeling thermometers (i.e., on scales of 0-100, "How cold or warm do you feel towards White-Americans?" and "How cold or warm do you feel towards African-Americans?).
+
+- __Study 6 (ensemble6; n = XXXX subjects):__ start
 
 
 
