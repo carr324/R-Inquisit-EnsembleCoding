@@ -29,9 +29,9 @@ cleanDemog <- group_by(rawDemog, subject) %>%
 
 # Remove subjects who didn't finish the study from data/demog files:
 exclSbj <- sbjSummary$subject[sbjSummary$count!=100]
-cleanData <- filter(cleanData, !(subject) %in% exclSbj)
-cleanDemog <- filter(cleanDemog, !(subject) %in% exclSbj)
-sbjSummary <- filter(sbjSummary, !(subject) %in% exclSbj)
+cleanData <- filter(cleanData, !(subject %in% exclSbj))
+cleanDemog <- filter(cleanDemog, !(subject %in% exclSbj))
+sbjSummary <- filter(sbjSummary, !(subject %in% exclSbj))
 
 ####################
 ### FINAL N = 5000 observations (50 subjects * 100 valid observations):
