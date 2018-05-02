@@ -1,0 +1,17 @@
+scale_q,scale_name,scale_subtype1,scale_subtype2,scale_text,reverse_code
+sdo7_q1,sdo,pt_dom,dominance,Some groups of people must be kept in their place.,0
+sdo7_q10,sdo,pt_antieg,antiegalitarianism,We shouldn’t try to guarantee that every group has the same quality of life.,0
+sdo7_q11,sdo,pt_antieg,antiegalitarianism,It is unjust to try to make groups equal.,0
+sdo7_q12,sdo,pt_antieg,antiegalitarianism,Group equality should not be our primary goal.,0
+sdo7_q13,sdo,ct_antieg,antiegalitarianism,We should work to give all groups an equal chance to succeed.,1
+sdo7_q14,sdo,ct_antieg,antiegalitarianism,We should do what we can to equalize conditions for different groups.,1
+sdo7_q15,sdo,ct_antieg,antiegalitarianism,"No matter how much effort it takes, we ought to strive to ensure that all groups have the same chance in life.",1
+sdo7_q16,sdo,ct_antieg,antiegalitarianism,Group equality should be our ideal.,1
+sdo7_q2,sdo,pt_dom,dominance,It’s probably a good thing that certain groups are at the top and other groups are at the bottom.,0
+sdo7_q3,sdo,pt_dom,dominance,An ideal society requires some groups to be on top and others to be on the bottom.,0
+sdo7_q4,sdo,pt_dom,dominance,Some groups of people are simply inferior to other groups.,0
+sdo7_q5,sdo,ct_dom,dominance,Groups at the bottom are just as deserving as groups at the top.,1
+sdo7_q6,sdo,ct_dom,dominance,No one group should dominate in society.,1
+sdo7_q7,sdo,ct_dom,dominance,Groups at the bottom should not have to stay in their place.,1
+sdo7_q8,sdo,ct_dom,dominance,Group dominance is a poor principle.,1
+sdo7_q9,sdo,pt_antieg,antiegalitarianism,We should not push for group equality.,0
